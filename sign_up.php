@@ -42,7 +42,7 @@ if (isset($_POST['email']) && isset($_POST['nome']) && isset($_POST['cpf']) && i
 function cadastrar($email, $nome, $cpf, $senha)
 {
     $novoUsuario = new Usuario($email, $nome, $cpf, $senha); //Cria a conta (objeto usuario)
-    array_push($_SESSION["listaUsuarios"], $novoUsuario); //Registra a conta no array usuarios (salvo na sessão)
+    array_push($_SESSION["listaUsuarios"], $novoUsuario); //Registra a conta no array listaUsuarios (salvo na sessão)
     echo "Cadastro concluído com sucesso!";
     echo "<p><a href=sign_in.php>Fazer login</a></p>";
 }
