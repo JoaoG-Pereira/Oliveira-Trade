@@ -1,27 +1,25 @@
 Manual do usuário - Oliveira Trade
 
 Programa criado para o teste prático para a vaga de Desenvolvedor Trainee da Everymind
-
-Ao acessar o site pela primeira vez, o usuário será enviado para uma página com formulário de login.
+Ao acessar o site pela primeira vez, você será enviado para uma página com formulário de login.
 
 Criação de conta
 Obs: Se você já possui uma conta, pule para o trecho sobre Acesso à conta
-Caso o cliente ainda não possua uma conta, ele pode apertar em "Ainda não tem uma conta?" (na tela inicial, de login) para fazer seu cadastro (Sign Up)
+Caso ainda não possua uma conta, aperte em "Ainda não tem uma conta?" (na tela inicial, de login) para fazer seu cadastro (Sign Up)
 Ao apertar o botão, será exibido um formulário de cadastro com os seguintes campos:
 *Email
- *Nome
+*Nome
 *CPF
 *Senha
 Após preencher os campos, aperte o botão "Criar conta" para terminar seu registro. A criação de conta é instântanea.
-Depois dessa etapa, o usuário já pode prosseguir para o login. Ele será redirecionado automaticamente para a página de login.
-Caso isso não aconteça, também será exibido um link com a mensagem "Fazer login" na tela.
+Depois dessa etapa, já é possível prosseguir para o login. Uma vez completado o cadastro, aperte no link com a mensagem "Fazer login" que será exibido na tela.
 
 Acesso à conta
-Caso ele já possua uma conta, para acessá-la ele deve informar seu email e sua senha nos respectivos campos e clicar no botão de "Entrar" (Sign In).
-Se as informações estiverem corretas, será exibida uma mensagem de boas-vindas na tela confirmando que ele está "logado".
-Se não for encontrada uma conta com o email informado, o programa exibirá "Usuário não encontrado".
-Se a senha informada estiver incorreta, o programa exibirá "Senha incorreta".
+Caso já possua uma conta, informe seu email e sua senha nos respectivos campos e clique no botão de "Entrar" (Sign In) para acessá-la.
+Se as informações estiverem corretas, será exibida uma mensagem de boas-vindas na tela confirmando que você está "logado".
+Se não for encontrada uma conta com o email informado, o programa exibirá a mensagem "Usuário não encontrado".
+Se a senha informada estiver incorreta, o programa exibirá a mensagem "Senha incorreta".
 
 Sair da conta
-Uma vez logado, sempre que o usuário acessar a página inicial haverá um botão de sair
+Uma vez logado, sempre que acessar a página inicial haverá um botão de sair
 Clicando nele, o programa sairá de sua conta instantaneamente.
