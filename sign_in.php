@@ -18,7 +18,7 @@ include_once 'usuario.php'; //Inclui o código do objeto "usuario"
 O login do usuário é salvo na sessão pela variável usuarioLogado ($_SESSION["usuarioLogado"])*/
 session_start();
 
-//Verfica se a lista de usuários já foi criada
+//Verifica se a lista de usuários já foi criada
 if (!isset($_SESSION["listaUsuarios"])) {
     $listaUsuarios = array();
     $_SESSION["listaUsuarios"] = $listaUsuarios; //Cria a lista

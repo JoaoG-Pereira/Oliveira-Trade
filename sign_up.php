@@ -18,6 +18,12 @@
 include_once 'usuario.php'; //Inclui o código do objeto "usuario"
 session_start(); //Inicia a sessão
 
+//Verifica se a lista de usuários já foi criada
+if (!isset($_SESSION["listaUsuarios"])) {
+    $listaUsuarios = array();
+    $_SESSION["listaUsuarios"] = $listaUsuarios; //Cria a lista
+}
+
 //Verifica se cada campo formulário foi enviado
 if (isset($_POST['email']) && isset($_POST['nome']) && isset($_POST['cpf']) && isset($_POST['senha'])) {
     //Verifica se nenhum campo está vazio
